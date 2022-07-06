@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(eleicao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    font-weight: normal;
+    color: rgb(10, 26, 3);
+    font-size: 4rem;
+    margin-top: -20rem;
+    
+}
+.countdown-conteiner{
+    color: white;
+    display: flex;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 2;
+    margin: 0 2rem;
+    text-align: center;
+}
+.countdown-l{
+    text-align: center;
+}
+span{
+   
+   display: flex;
+   font-size: 2rem;
+   color:rgb(26, 3, 3);
+   margin-top: -2rem;
+   font-weight: bold;
+}
